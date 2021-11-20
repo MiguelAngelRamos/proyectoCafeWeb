@@ -10,7 +10,31 @@ segundapropiedad: valor;
   margin: 10px;
 } */
 /* control + k + u para comentar */
-* {
+/* * {
   border: 1px solid red;
   margin: 10px;
+} */
+
+/* Selector de etiqueta */
+header {
+  background: lightblue;
+}
+
+/* Tenemos 2 secciones en nuestro sitio*/
+section {
+  background: lightcoral;
+}
+
+/* Selector descendente ( Para ser mas especificos)*/
+
+/* h3 {
+  color: white;
+} */
+
+/* section h3 {
+  color: white;
+} */
+
+article h3 {
+  color: white;
 }
