@@ -1,0 +1,16 @@
+/* tipo de selector
+propiedad: valor;
+segundapropiedad: valor;
+*/
+
+/* SELECTOR UNIVERSAL */
+
+/* * {
+  border: 1px solid red;
+  margin: 10px;
+} */
+/* control + k + u para comentar */
+* {
+  border: 1px solid red;
+  margin: 10px;
+}
