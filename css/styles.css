@@ -29,12 +29,39 @@ section {
 
 /* h3 {
   color: white;
-} */
+}   */
 
 /* section h3 {
   color: white;
 } */
 
-article h3 {
+/* article h3 {
   color: white;
+}  */
+
+/* SELECTORES DE CLASE */
+.title-a {
+  background: wheat;
+}
+.title-b {
+  color: white;
+  background: gray;
+}
+
+/* Selector por ID */
+
+/* Recordemos que los id son unicos por pagina
+es decir no puedo tener 2 elementos html con el mismo id 
+*/
+
+#header {
+  border: 3px solid black;
+}
+
+#portada {
+  border: 3px solid orange;
+}
+
+#cafes {
+  border: 3px solid seagreen;
 }
