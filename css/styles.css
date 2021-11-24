@@ -37,6 +37,7 @@ body {
 
 .portada {
   background-image: url('../img/background.jpg');
+  background-size: cover;
   color: white;
   padding: 20px;
 }
