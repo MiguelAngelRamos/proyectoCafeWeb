@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <title>Cafeteria - los mejores Cafe times</title>
   <!-- <style>
     body {
       background: lightblue;
     }
   </style> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
- <!-- header -->
- <!-- estilos en linea <header style="background: brown;"></header> -->
- <header id="header">
-   <figure> <!-- logo tipo -->
-     <img src="img/logo.png" width="60" alt="logo cafe"/>
-   </figure>
-   
-   <nav> <!-- menu -->
-    <!-- ul es una lista desordenada -->
-    <!-- ol es una lista ordenada -->
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Cafes</a></li>
-      <li><a href="precios.html">Precios</a></li>
-    </ul>
-   </nav>
- </header>
+  <!-- header -->
+  <!-- estilos en linea <header style="background: brown;"></header> -->
+  <header id="header">
+    <figure class="logotipo">
+      <!-- logotipo -->
+      <img src="img/logo.png" width="60" alt="logo cafe" />
+    </figure>
 
- <section id="portada"> <!-- portada -->
-  <h1>CafeTime Saborint</h1>
-  <h3 class="title-a">El mejor cafe intenso para momentos especiales</h3>
-  <!--Botón-->
-  <button>Conoce mas</button>
- </section>
+    <nav class="menu">
+      <!-- menu -->
+      <!-- ul es una lista desordenada -->
+      <!-- ol es una lista ordenada -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cafes</a></li>
+        <li><a href="precios.html">Precios</a></li>
+      </ul>
+    </nav>
 
- <section id="cafes"> <!-- cafes -->
-  <h2>Nuestros cafes</h2> <!-- titulo -->
+  </header>
 
-  <article> <!-- cafe 1-->
-    <img src="img/cafetime.png" width="200" alt="cafe expresso"/>
-    <h3 class="title-b">Expresso</h3>
-    <ol>
-      <li>Sabor intenso</li>
-      <li>Cafe puro</li>
-      <li>LLeno de energia</li>
-    </ol>
-  </article>
+  <section id="portada" class="portada">
+    <!-- portada -->
+    <h1 class="titulo">CafeTime Saborint</h1>
+    <!--titulo-->
+    <h3 class="title-a">El mejor cafe intenso para momentos especiales</h3>
+    <!--Botón-->
+    <button>Conoce mas</button>
+  </section>
 
-  <article> <!-- cafe 2-->
-    <img src="img/cafetimegranos.png" width="200" alt="granos de cafe"/>
-    <h3 class="title-b">Granos finos</h3>
+  <section id="cafes" class="cafes">
+    <!-- cafes -->
+    <h2>Nuestros cafes</h2> <!-- titulo -->
 
-    <ol>
-      <li>Primera selección</li>
-      <li>Frescos</li>
-      <li>Calidad inigualable</li>
-    </ol>
-  </article>
+    <article>
+      <!-- cafe 1-->
+      <img src="img/cafetime.png" width="200" alt="cafe expresso" />
+      <h3 class="title-b">Expresso</h3>
+      <ol>
+        <li>Sabor intenso</li>
+        <li>Cafe puro</li>
+        <li>LLeno de energia</li>
+      </ol>
+    </article>
 
- </section>
- 
+    <article>
+      <!-- cafe 2-->
+      <img src="img/cafetimegranos.png" width="200" alt="granos de cafe" />
+      <h3 class="title-b">Granos finos</h3>
+
+      <ol>
+        <li>Primera selección</li>
+        <li>Frescos</li>
+        <li>Calidad inigualable</li>
+      </ol>
+    </article>
+
+  </section>
+
 </body>
+
 </html>

@@ -1,67 +1,40 @@
-/* tipo de selector
-propiedad: valor;
-segundapropiedad: valor;
+/* 
+font-family: 'Allerta', sans-serif;
+font-family: 'Montserrat', sans-serif; 
 */
-
-/* SELECTOR UNIVERSAL */
-
-/* * {
-  border: 1px solid red;
-  margin: 10px;
-} */
-/* control + k + u para comentar */
-/* * {
-  border: 1px solid red;
-  margin: 10px;
-} */
-
-/* Selector de etiqueta */
-header {
-  background: lightblue;
+body {
+  font-family: 'Allerta', sans-serif;
+}
+.titulo {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 70px;
 }
 
-/* Tenemos 2 secciones en nuestro sitio*/
-section {
-  background: lightcoral;
-}
-
-/* Selector descendente ( Para ser mas especificos)*/
-
-/* h3 {
-  color: white;
-}   */
-
-/* section h3 {
-  color: white;
-} */
-
-/* article h3 {
-  color: white;
-}  */
-
-/* SELECTORES DE CLASE */
 .title-a {
-  background: wheat;
+  font-size: 24px;
 }
+
 .title-b {
+  font-size: 50px;
+}
+
+.cafes {
+  color: #412B19;
+}
+
+/* SELECTOR DESCENDENTE */
+.cafes h2 {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 35px;
+}
+
+/* El background puede ser un color o imagen */
+
+.portada {
+  background-image: url('../img/background.jpg');
   color: white;
-  background: gray;
 }
 
-/* Selector por ID */
-
-/* Recordemos que los id son unicos por pagina
-es decir no puedo tener 2 elementos html con el mismo id 
-*/
-
-#header {
-  border: 3px solid black;
-}
-
-#portada {
-  border: 3px solid orange;
-}
-
-#cafes {
-  border: 3px solid seagreen;
+.menu {
+  font-size: 24px;
 }
