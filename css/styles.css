@@ -118,6 +118,7 @@ button {
   margin-left: 370px;
 }
 
-/* 
-elemento padre (position relative)
-  elemento hijo ( position absolute) */
+.contacto {
+  display: flex;
+  width: 300px;
+}
