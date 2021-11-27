@@ -14,6 +14,12 @@ button {
   color: white;
   border: none;
 }
+
+/* Una buena practica tener estilos centralizados */
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
 .titulo {
   font-family: 'Montserrat', sans-serif; 
   font-size: 70px;
@@ -33,7 +39,7 @@ button {
 
 .cafes {
   color: #412B19;
-
+  margin-bottom: 60px;
 }
 
 /* SELECTOR DESCENDENTE */
@@ -81,6 +87,7 @@ button {
 
 .footer {
   background: #C29B61;
+  padding: 50px 10px;
 }
 .cafe {
   padding: 10px;
@@ -93,6 +100,10 @@ button {
 .cafe ol {
   padding:0;
 }
+
+.cafe.granoscafe {
+  height: 190px;
+}
 .right {
   float: right;
   position: relative;
@@ -102,19 +113,19 @@ button {
 .left {
   float: left;
   position: relative;
-  top:80px;
-}
-/* Una buena practica tener estilos centralizados */
-.contenedor {
-  width: 800px;
-  margin: auto;
+
 }
 
+
 .contenedor-cafe-a {
+  position: relative;
+  bottom: 36px;
   padding-left: 20px;
 }
 
 .contenedor-cafe-b {
+  position: relative;
+  bottom: 115px;
   margin-left: 370px;
 }
 
