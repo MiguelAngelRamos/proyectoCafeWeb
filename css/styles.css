@@ -14,7 +14,32 @@ button {
   color: white;
   border: none;
 }
+label {
+  margin-top: 10px;
+}
 
+input, textarea {
+  outline: 0;
+  border-radius: 7px;
+  border: 1px solid #835835;
+}
+
+input:focus, textarea:focus {
+  background: #fce3c3;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #836123;
+  content:'';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+
+}
 /* Una buena practica tener estilos centralizados */
 .contenedor {
   width: 800px;
@@ -163,5 +188,37 @@ button {
   padding-left: 10px;
   padding-bottom: 50px; */
 
-  padding: 50px 10px;
+  /* padding: 50px 10px;  */
+}
+
+/* vamos darle estilos a las clases col1 y col2 */
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 .button{
+  margin-top:15px;
+}
+
+.intereses label {
+   font-size: 12px;
+}
+
+.formulario label, .generos, .intereses {
+  margin-bottom: 10px;
+}
+
+.generos {
+  margin-top: 10px;
+  font-size: 12px;
 }
