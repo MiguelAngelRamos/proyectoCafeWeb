@@ -7,12 +7,20 @@ body {
   margin: 0; 
 }
 
-button {
-  border-radius: 5px;
-  background: #9c540c;
-  padding: 7px;
-  color: white;
+.button {
+
   border: none;
+  border-radius: 12px;
+  background: #9c540c;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  /* 8px en top y bottom, 12px right y left */
+  padding: 8px 12px;
+  text-decoration: none;
+  /* Arrancar de derecha y se va ir hacia la izquierda, colores degradado*/
+  background: linear-gradient(to left, #8a4b0c, #dd944c);
+ 
 }
 label {
   margin-top: 10px;
@@ -34,12 +42,24 @@ input[type='radio']:checked:after {
   border-radius: 15px;
   position: relative;
   background-color: #836123;
+  content:''; 
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='checkbox']:checked:after {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: #977639;
   content:'';
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
-
 }
+
+
 /* Una buena practica tener estilos centralizados */
 .contenedor {
   width: 800px;
@@ -79,6 +99,7 @@ input[type='radio']:checked:after {
   background-size: cover;
   color: white;
   padding: 20px;
+  height: 500px;
 }
 
 .portada button {
@@ -104,6 +125,10 @@ input[type='radio']:checked:after {
 
 .logotipo {
   display: inline-block;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  margin-left:0;
+  margin-top: -12px
 }
 
 .header {
@@ -116,10 +141,11 @@ input[type='radio']:checked:after {
 }
 .cafe {
   padding: 10px;
-  margin: 10px;
-  border: 1px solid #412B19;
+  margin: 10px 10px 40px 10px;
+  /* border: 1px solid #412B19; */
  /* overflow: hidden;  para que no desborden nuestras imagenes*/
- border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .cafe ol {
@@ -150,7 +176,7 @@ input[type='radio']:checked:after {
 
 .contenedor-cafe-b {
   position: relative;
-  bottom: 115px;
+  bottom: 85px;
   margin-left: 370px;
 }
 
