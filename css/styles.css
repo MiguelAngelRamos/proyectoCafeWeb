@@ -62,9 +62,18 @@ input[type='checkbox']:checked:after {
 
 /* Una buena practica tener estilos centralizados */
 .contenedor {
+  position: relative;
   width: 800px;
   margin: auto;
 }
+
+.background-general {
+  background: #3a2b29;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  height: 85px;
+  color: white;
+}
+
 .titulo {
   font-family: 'Montserrat', sans-serif; 
   font-size: 70px;
@@ -248,3 +257,30 @@ input[type='checkbox']:checked:after {
   margin-top: 10px;
   font-size: 12px;
 }
+
+/* Tablas */
+
+table {
+  width: 100%; /* toma el 100% de tu padre contenedor que tiene los 800px */
+}
+
+th {
+  background-color: #3a2b29;
+  color: white;
+  padding: 10px 20px;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #C29B61;
+  border-collapse: collapse;
+}
+
+.tabla {
+  margin: 50px 0;
+}
+
+/* Tablas */
