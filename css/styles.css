@@ -231,7 +231,7 @@ input[type='checkbox']:checked:after {
 
   /* padding: 50px 10px;  */
 }
-
+/* Esto es un comentario*/
 /* vamos darle estilos a las clases col1 y col2 */
 
 .col1, .col2 {
@@ -268,6 +268,7 @@ input[type='checkbox']:checked:after {
 
 table {
   width: 100%; /* toma el 100% de tu padre contenedor que tiene los 800px */
+  margin-bottom: 60px;
 }
 
 th {
@@ -281,8 +282,32 @@ td {
 }
 
 table, td, th {
-  border: 1px solid #C29B61;
-  border-collapse: collapse;
+  font-size: 20px;
+  border: 0;
+  /* border: 1px solid #C29B61;
+  border-collapse: collapse; */
+}
+i {
+  font-size: 12px;
+}
+.precio {
+  font-size: 12px;
+  padding: 15px 7px;
+  width: 35px;
+  color: white;
+  text-align: center;
+  background: #9c540c ;
+  border-radius: 50%;
+}
+.titulo-precio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3a2b29;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .tabla {
